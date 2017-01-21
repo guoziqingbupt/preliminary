@@ -2,6 +2,11 @@ import csv
 
 
 def readData(fileName):
+    """
+    read the csv file into a 2-dimensional matrix
+    :param fileName:
+    :return:
+    """
 
     data = []
 
@@ -19,5 +24,4 @@ def readData(fileName):
             data.append(temp)
 
     return data
-
 
